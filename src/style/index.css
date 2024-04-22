@@ -1,0 +1,19 @@
+.underline-animation {
+    @apply bg-gradient-to-r bg-[length:0_3px] bg-left-bottom bg-no-repeat no-underline transition-[background-size] duration-500 ease-in-out hover:bg-[length:100%_3px];
+}
+
+.underline-animation-group {
+    @apply group-hover:bg-[length:100%_3px];
+}
+
+.underline-animation-white {
+    @apply from-white to-white;
+}
+
+.underline-animation-black {
+    @apply from-black to-black;
+}
+
+.underline-animation-primary {
+    @apply from-primary-400 to-primary-400;
+}
